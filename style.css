@@ -1,5 +1,6 @@
 /* Font */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 /* Basic Reset */
 *,
 *::before,
@@ -8,6 +9,7 @@
 }
 
 body {
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -19,13 +21,11 @@ body {
   justify-content: center;
   align-items: center;
   height: 50vh;
-  /* background: black; */
   background: url("assets/vlad-kiselov-dHkh5YztXAA-unsplash.jpg") center
     no-repeat;
 }
 
 .hero__container {
-  font-family: "Roboto", sans-serif;
   text-align: center;
   color: white;
 }
@@ -42,4 +42,44 @@ body {
   padding: 15px;
   background-color: black;
   border-radius: 15px;
+}
+
+/* Activities section */
+#activities {
+  background-color: #fafaff;
+  margin: 25px 0;
+}
+
+.activities__title {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.activity__title {
+  font-weight: bold;
+}
+
+.activity__info {
+  text-align: center;
+}
+
+#activityDiv {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+#activity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
+
+#activity__image {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  object-fit: cover;
 }
