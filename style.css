@@ -1,3 +1,45 @@
-h1 {
-  color: black;
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* Basic Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  /* background: black; */
+  background: url("assets/vlad-kiselov-dHkh5YztXAA-unsplash.jpg") center
+    no-repeat;
+}
+
+.hero__container {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.hero__title {
+  display: inline-block;
+  padding: 15px;
+  font-size: 3rem;
+  background-color: black;
+  border-radius: 15px;
+}
+
+.hero__subTitle {
+  padding: 15px;
+  background-color: black;
+  border-radius: 15px;
 }
